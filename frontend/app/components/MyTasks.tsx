@@ -89,7 +89,7 @@ export default function MyTasks() {
                 {task.description}
               </p>
 
-              {/* Current Status */}
+              
               <p className="text-zinc-400 text-sm mb-2">Status:</p>
 
               <select
@@ -103,7 +103,6 @@ export default function MyTasks() {
                 <option value="DONE">DONE</option>
               </select>
 
-              {/* Footer */}
               <p className="text-xs text-zinc-500 mt-4 border-t border-zinc-700 pt-4">
                 Assigned on: {new Date(task.createdAt).toLocaleDateString()}
               </p>

@@ -52,7 +52,7 @@ export default function CreateTeamComponent() {
     <div className="w-full bg-zinc-950">
       <div className="bg-zinc-900 border border-zinc-800 rounded-2xl shadow-xl p-8">
 
-        {/* HEADER */}
+      
         <div className="flex items-center justify-between">
           <div>
             <h1 className="text-3xl font-bold text-white mb-2">
@@ -92,12 +92,12 @@ export default function CreateTeamComponent() {
 
       </div>
 
-      {/* MODAL */}
+      
       {modalOpen && (
         <div className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center p-4 z-50 backdrop-blur-sm">
           <div className="bg-zinc-900 border border-zinc-800 rounded-2xl p-8 w-full max-w-lg shadow-2xl relative">
             
-            {/* CLOSE BUTTON */}
+           
             <button
               className="absolute top-6 right-6 text-zinc-400 hover:text-zinc-200"
               onClick={() => {
@@ -118,7 +118,7 @@ export default function CreateTeamComponent() {
               </div>
             )}
 
-            {/* TEAM NAME */}
+           
             <div className="mb-4">
               <label className="block text-sm font-medium text-zinc-300 mb-2">
                 Team Name *
@@ -131,7 +131,7 @@ export default function CreateTeamComponent() {
               />
             </div>
 
-            {/* DESCRIPTION */}
+            
             <div className="mb-4">
               <label className="block text-sm font-medium text-zinc-300 mb-2">
                 Description
@@ -145,7 +145,7 @@ export default function CreateTeamComponent() {
               />
             </div>
 
-            {/* CREATE BUTTON */}
+           
             <button
               onClick={() => {/* You already have logic above. Keep it */}}
               className="w-full py-3 bg-orange-500 hover:bg-orange-600 text-white rounded-lg font-semibold"

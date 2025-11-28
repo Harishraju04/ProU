@@ -67,7 +67,7 @@ router.get("/productivity/me", auth, async (req, res) => {
     try {
         const userId = (req as any).user;
 
-        // Completed tasks last 7 days
+        
         const completed7 = await prisma.task.count({
             where: {
                 assigneeId: userId,
@@ -78,7 +78,7 @@ router.get("/productivity/me", auth, async (req, res) => {
             }
         });
 
-        // Total completed tasks
+        
         const totalCompleted = await prisma.task.count({
             where: {
                 assigneeId: userId,
@@ -86,7 +86,7 @@ router.get("/productivity/me", auth, async (req, res) => {
             }
         });
 
-        // Average completion time
+        
         const completedTasks = await prisma.task.findMany({
             where: {
                 assigneeId: userId,
