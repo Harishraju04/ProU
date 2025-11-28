@@ -33,6 +33,10 @@ This project demonstrates a clean, scalable, production-ready architecture.
 - JWT Authentication  
 
 ---
+
+## Demo Video
+ https://drive.google.com/file/d/1VeOzIPyN6iHUk_OgdF-P5iA-ZShTSalE/view?usp=sharing
+
 <img width="1272" height="757" alt="image" src="https://github.com/user-attachments/assets/e490a33c-b4b6-488c-8099-919624456717" />
 <img width="1877" height="805" alt="image" src="https://github.com/user-attachments/assets/67cf22cb-7ecf-4fd6-a12d-c7c6db5064a3" />
 <img width="1895" height="700" alt="image" src="https://github.com/user-attachments/assets/4c048b3e-10f5-4adc-a88e-ce3e58a6ba8a" />
