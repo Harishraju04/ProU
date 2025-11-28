@@ -1,0 +1,78 @@
+# ---------------------------
+# Global Ignores
+# ---------------------------
+node_modules/
+.env
+.env.local
+.env.*.local
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.DS_Store
+*.swp
+*.swo
+
+# ---------------------------
+# Frontend (Next.js)
+# ---------------------------
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+frontend/.turbo/
+frontend/.vercel/
+
+# Next.js build cache
+frontend/.next/cache/
+
+# ---------------------------
+# Backend (Node + Express)
+# ---------------------------
+backend/node_modules/
+backend/dist/
+backend/build/
+backend/prisma/*.db
+backend/.env
+backend/.env.local
+backend/.env.*.local
+
+# Prisma
+backend/prisma/migrations/*/README.md
+backend/prisma/migrations/*/migration.sql
+
+# ---------------------------
+# Logs
+# ---------------------------
+logs
+*.log
+backend/logs/
+frontend/logs/
+
+# ---------------------------
+# Caches
+# ---------------------------
+.cache/
+.temp/
+tmp/
+temp/
+coverage/
+
+# ---------------------------
+# IDE / System Files
+# ---------------------------
+.vscode/
+.idea/
+*.iml
+*.class
+
+# ---------------------------
+# Optional
+# ---------------------------
+/*.pem
+*.key
+*.crt
